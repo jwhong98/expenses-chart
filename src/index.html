@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="content-container">
+      <div class="head">
+        <div class="head-text">
+          <p>My balance</p>
+          <p class="balance">$921.48</p>
+        </div>
+        <img src="../images/logo.svg" alt="logo" class="logo" />
+      </div>
+      <div class="chart-container">
+        <h2>Spending - Last 7 days</h2>
+        <canvas id="myChart"></canvas>
+        <hr />
+        <div class="monthly-stats">
+          <p>Total this month</p>
+          <div class="stats">
+            <p class="spending">$478.33</p>
+            <div class="comparison">
+              <p class="difference">+2.4%</p>
+              <p>from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

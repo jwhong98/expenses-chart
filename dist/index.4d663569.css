@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: DM Sans, sans-serif;
+}
+
+body {
+  background: #f8e9dd;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.content-container {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.head {
+  background: #ec775f;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.head-text {
+  color: #f8e9dd;
+}
+
+.balance {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.chart-container {
+  color: #93867b;
+  background: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+h2 {
+  color: #382314;
+  font-size: 1.5rem;
+}
+
+hr {
+  height: 2px;
+  background: #f8e9dd;
+  border: none;
+}
+
+.stats {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.spending {
+  color: #382314;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.comparison {
+  text-align: end;
+}
+
+.difference {
+  color: #382314;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
